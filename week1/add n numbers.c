@@ -2,7 +2,7 @@
 int add (int n,int a[])
 {
     int i;
-    int sum;
+    int sum=0;
     for ( i=0;i<n;i=i+1)
     {
         sum= sum + a[i];
