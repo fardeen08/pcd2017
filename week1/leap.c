@@ -7,11 +7,26 @@
 		scanf("%d",&n);
 			if (n%4==0)
 			{
-				printf("the given year is leap year\n");
-			}
-			else
-			{
-				printf("the given year is not a leap year\n");
-			}	
+				if (n%100==0)
+				{
+						if (n%400==0)
+						{
+							printf("the given year is leap year\n");
+						}									
+					else
+						{	
+							printf("the given year is not a leap year\n");
+						}					
+				}
+				else
+				{
+					printf("the given year is a leap year\n");
+					}
+				}
+				else 
+				{
+					printf("the given year is not a leap year\n");
+				}
+				
 		return 0;
 		}	
